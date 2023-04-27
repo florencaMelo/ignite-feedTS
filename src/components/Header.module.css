@@ -1,0 +1,13 @@
+.header{
+  background: var(--gray-600);
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+}
+
+.header img{
+  height: 2rem;
+}
+
+/* css module é para não dar nenhuma interferência com os outros estilos de uma aplicação e usamos geralemnte classes nele */
+/* cada classe que nos utilizamos no css.module ele gera uma outra (console) */
