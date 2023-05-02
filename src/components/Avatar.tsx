@@ -1,4 +1,6 @@
 import styles from "./Avatar.module.css"
+import { ImgHTMLAttributes } from "react";
+import React from "react";
 
 interface AvatarProps {
   hasBorder?: boolean;
