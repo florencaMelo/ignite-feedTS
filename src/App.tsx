@@ -3,10 +3,7 @@ import "./global.css";
 import styles from "./App.module.css";
 import { Post } from "./components/Post";
 import { Sidebar } from "./components/Sidebar";
-
-// author: { avatar-url: "", name: "", role: "" }
-// publishedAt: Date
-// content: strong 
+import { Post } from './components/Post'
 
 // aqui vai fazer com que as propriedades não fiquem estáticas e sim dinâmicas
 const post =[
