@@ -1,24 +1,17 @@
 import styles from "./Avatar.module.css"
 
-export function Avatar (props) {
-   const hasBorder = props.hasBorder !== false;
+interface AvatarProps {
+  hasBorder?: boolean;
+  src: string;
+  alt?: string;
+}
 
+export function Avatar ({ hasBorder = true, src, alt }: AvatarProps) {
    return(
     <img 
       className={hasBorder ? styles.avatarWithBorder : styles.avatar}
-      src={props.src}
+      src={src}
+      alt={alt}
      />
    )
 }
-
-// export function Avatar ( hasBorder = true, src) {
-//   return(
-//    <img 
-//      className={hasBorder ? styles.avatarWithBorder : styles.avatar}
-//      src={src}
-//     />
-//   )
-// }
-// desestruturação em js:
-// const user = { name: "lucas" }
-// const { name } = user;  --> vai ternornar lucas
