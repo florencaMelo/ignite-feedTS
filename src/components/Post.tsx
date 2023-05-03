@@ -19,6 +19,7 @@ interface Content{
 }
 
 export interface PostType{
+  id: number;
   author: Author
   publishedAt: Date;
   content: Content[];
