@@ -5,7 +5,6 @@ import { Sidebar } from "./components/Sidebar";
 
 import "./global.css";
 
-// aqui vai fazer com que as propriedades não fiquem estáticas e sim dinâmicas
 const post: PostType[] =[
   {
     id: 1,
